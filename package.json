@@ -1,0 +1,19 @@
+{
+  "name": "e-com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3"
+  }
+}
